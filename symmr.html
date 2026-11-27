@@ -10,11 +10,12 @@
 <main>
   <a class="back" href="index.html">← All apps</a>
   <h1>Symmr Privacy Policy</h1>
-  <p class="date">Last updated: November 10, 2026 · <a href="symmr-terms.html">Terms of Use</a></p>
+  <p class="date">Last updated: November 14, 2026 · <a href="symmr-terms.html">Terms of Use</a></p>
 
   <div class="summary">
     <p><strong>Your kitchen data stays on your device.</strong> Symmr has no accounts, no ads and no tracking.
-    Only the content you choose to send to an AI feature leaves your device, and Symmr does not keep it.</p>
+    Only the content you choose to send to an AI feature leaves your device, and Symmr does not keep it. To count AI use
+    and check subscriptions, the server keeps a random app ID and a monthly count, nothing more.</p>
   </div>
 
   <h2>Data stored on your device</h2>
@@ -31,10 +32,25 @@
     <li>a recipe web link, which the Symmr server opens to read the recipe.</li>
   </ul>
   <p>Symmr does not store this content after returning the result. Google processes it under the
-  <a href="https://ai.google.dev/gemini-api/terms">Gemini API Terms</a> and
-  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. Like most web services, the server's hosting
+  <a href="https://ai.google.dev/gemini-api/terms">Gemini API Terms</a> for paid services, under which Google does not use
+  it to improve its products, and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. To avoid
+  paying twice for the same answer, the server may keep a text answer in short-term memory for up to 24 hours, linked only
+  to the exact request, never to you. Like most web services, the server's hosting
   provider may keep short-lived technical logs (such as IP addresses and request times) for security and reliability.</p>
   <p>Browsing recipes, the meal planner, the pantry and grocery lists work without sending your data anywhere.</p>
+
+  <h2>AI usage counts</h2>
+  <p>Each copy of the app has a random ID created on your device (it is not your name, email or Google account). When you
+  use an AI feature, the Symmr server records that ID and the number of AI actions used this month, so it can apply your
+  plan's monthly allowance. To stop abuse of the free allowance, it also counts free AI actions per network (IP) address
+  per day. These counts contain nothing you submitted and are deleted automatically within about 40 days (daily counts
+  within 2 days).</p>
+
+  <h2>Subscriptions</h2>
+  <p>Symmr Plus and Pro are sold through Google Play. Google handles the payment; Symmr never sees your card or bank
+  details. Purchases are managed with <a href="https://www.revenuecat.com/privacy/">RevenueCat</a>, which receives the
+  app's random ID and the purchase records from Google Play (such as the product, purchase date, renewal status and
+  country) so the app and server can tell whether your subscription is active.</p>
 
   <h2>Camera and photos</h2>
   <p>Symmr uses your camera or photo library only when you choose to scan or import from a photo, and only for the pictures
@@ -49,7 +65,9 @@
 
   <h2>Deleting your data</h2>
   <p>Deleting your recipes and lists in the app, clearing the app's storage, or uninstalling Symmr removes your data from
-  your device. There is nothing stored on our side to delete.</p>
+  your device. AI usage counts are deleted automatically as described above. To ask for your subscription records to be
+  deleted, email us with the app ID shown on the Symmr Plus screen; Google Play keeps its own purchase records under
+  Google's policies.</p>
 
   <h2>Health information</h2>
   <p>Nutrition figures and dietary suggestions are general information, not medical advice. Symmr does not collect health
@@ -62,7 +80,7 @@
   <p>If this policy changes, the new version will be posted on this page with a new date.</p>
 
   <h2>Contact</h2>
-  <p>Blueprint Dynamics LLC — <a href="mailto:blueprintdhelp@gmail.com">blueprintdhelp@gmail.com</a></p>
+  <p>Blueprint Dynamics LLC — <a href="mailto:contact@blueprintdynamics.net">contact@blueprintdynamics.net</a></p>
 </main>
 </body>
 </html>
